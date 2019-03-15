@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14253.3" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14241.3"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14217"/>
+    </dependencies>
+    <scenes>
+        <!--Workout Start View-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="WorkoutStartView" customModule="SpeedySloth_WatchKit_App_Extension">
+                    <items>
+                        <group width="130" height="130" alignment="center" verticalAlignment="center" layout="vertical" radius="65" id="ZHW-ep-6y9">
+                            <items>
+                                <button width="130" height="130" alignment="center" verticalAlignment="center" title="RUN" id="ZHB-Kw-6mU">
+                                    <fontDescription key="font" type="system" weight="black" pointSize="36"/>
+                                    <connections>
+                                        <segue destination="XFn-uZ-zNM" kind="modal" identifier="startWorkout" id="pkL-JB-tdc"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--WorkoutSession-->
+        <scene sceneID="1W7-kw-LuB">
+            <objects>
+                <controller identifier="WorkoutSession" id="XFn-uZ-zNM" customClass="WorkoutSession" customModule="SpeedySloth_WatchKit_App_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" spacing="0.0" id="pex-p0-1NB">
+                            <items>
+                                <timer alignment="left" id="fTe-Px-a5B">
+                                    <fontDescription key="font" type="boldSystem" pointSize="28"/>
+                                </timer>
+                                <label alignment="left" text="0.0 cal" id="cLM-Yu-laI">
+                                    <fontDescription key="font" type="system" weight="medium" pointSize="28"/>
+                                </label>
+                                <label alignment="left" text="0.0 BPM" id="XaF-66-Mge">
+                                    <fontDescription key="font" type="system" weight="medium" pointSize="28"/>
+                                </label>
+                                <label alignment="left" text="0.0 m" id="Zpe-6h-42H">
+                                    <fontDescription key="font" type="system" weight="medium" pointSize="28"/>
+                                </label>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <menu key="menu" id="L6x-VN-nPs"/>
+                    <connections>
+                        <outlet property="activeCaloriesLabel" destination="cLM-Yu-laI" id="au1-Up-ORm"/>
+                        <outlet property="distanceLabel" destination="Zpe-6h-42H" id="Mzf-yT-v9v"/>
+                        <outlet property="heartRateLabel" destination="XaF-66-Mge" id="a4S-xn-pbF"/>
+                        <outlet property="timer" destination="fTe-Px-a5B" id="zSr-h2-R17"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="479" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="SpeedySloth_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="479" y="643"/>
+        </scene>
+    </scenes>
+</document>

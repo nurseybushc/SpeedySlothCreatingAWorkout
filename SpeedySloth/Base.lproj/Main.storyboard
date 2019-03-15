@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dp6-3V-UH4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Workout Start View-->
+        <scene sceneID="jXr-Mv-5Wq">
+            <objects>
+                <viewController id="dp6-3V-UH4" customClass="WorkoutStartView" customModule="SpeedySloth" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tK4-jj-wcZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SpeedySloth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bGI-ho-j5b">
+                                <rect key="frame" x="115.5" y="118" width="144" height="32"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2019 Apple. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MtV-Lk-cJc">
+                                <rect key="frame" x="56.5" y="598" width="262.5" height="15"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nrT-9o-SVb" firstAttribute="bottom" secondItem="MtV-Lk-cJc" secondAttribute="bottom" constant="54" id="N0d-Ah-G8o"/>
+                            <constraint firstItem="MtV-Lk-cJc" firstAttribute="centerX" secondItem="tK4-jj-wcZ" secondAttribute="centerX" id="VKS-a0-Und"/>
+                            <constraint firstItem="bGI-ho-j5b" firstAttribute="centerX" secondItem="tK4-jj-wcZ" secondAttribute="centerX" id="lgq-2p-MCa"/>
+                            <constraint firstItem="bGI-ho-j5b" firstAttribute="top" secondItem="nrT-9o-SVb" secondAttribute="top" constant="98" id="yZQ-YG-dWg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nrT-9o-SVb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l95-VO-TS8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746" y="136"/>
+        </scene>
+    </scenes>
+</document>
