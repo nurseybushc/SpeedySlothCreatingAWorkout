@@ -41,6 +41,7 @@ class WorkoutStartView: WKInterfaceController {
             /// - Tag: WorkoutConfiguration
             let configuration = HKWorkoutConfiguration()
             configuration.activityType = .running
+            configuration.locationType = .outdoor
             
             return WorkoutSessionContext(healthStore: healthStore, configuration: configuration)
         }

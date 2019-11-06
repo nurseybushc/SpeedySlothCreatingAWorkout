@@ -59,6 +59,7 @@ First, the app creates an [`HKWorkoutConfiguration`]( https://developer.apple.co
 ``` swift
 let configuration = HKWorkoutConfiguration()
 configuration.activityType = .running
+configuration.locationType = .outdoor
 ```
 [View in Source](x-source-tag://WorkoutConfiguration)
 
