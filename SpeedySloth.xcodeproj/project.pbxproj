@@ -7,63 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A255A88209A9F3B00B63199 /* WorkoutRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A255A87209A9F3B00B63199 /* WorkoutRow.swift */; };
-		8A255A8D209AA01B00B63199 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A255A8C209AA01B00B63199 /* WorkoutSession.swift */; };
-		8A7C523C2093A3B500D1C372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7C523B2093A3B500D1C372 /* AppDelegate.swift */; };
-		8A7C523E2093A3B500D1C372 /* WorkoutStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7C523D2093A3B500D1C372 /* WorkoutStartView.swift */; };
-		8A7C52412093A3B500D1C372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7C523F2093A3B500D1C372 /* Main.storyboard */; };
-		8A7C52432093A3B600D1C372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7C52422093A3B600D1C372 /* Assets.xcassets */; };
-		8A7C52462093A3B600D1C372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7C52442093A3B600D1C372 /* LaunchScreen.storyboard */; };
-		8A7C52532093A45D00D1C372 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7C52512093A45D00D1C372 /* Interface.storyboard */; };
-		8A7C52552093A45E00D1C372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7C52542093A45E00D1C372 /* Assets.xcassets */; };
-		8A7C525C2093A45E00D1C372 /* SpeedySloth WatchKit App Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A7C525B2093A45E00D1C372 /* SpeedySloth WatchKit App Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8A7C52612093A45E00D1C372 /* WorkoutStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7C52602093A45E00D1C372 /* WorkoutStartView.swift */; };
-		8A7C52632093A45E00D1C372 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7C52622093A45E00D1C372 /* ExtensionDelegate.swift */; };
-		8A7C52652093A45E00D1C372 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7C52642093A45E00D1C372 /* NotificationController.swift */; };
-		8A7C52672093A45F00D1C372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7C52662093A45F00D1C372 /* Assets.xcassets */; };
-		8A7C526C2093A45F00D1C372 /* SpeedySloth WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8A7C524F2093A45D00D1C372 /* SpeedySloth WatchKit App.app */; };
-		8A7C52782093A49B00D1C372 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7C52772093A49B00D1C372 /* HealthKit.framework */; };
-		8A7C527B2093A4BF00D1C372 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7C527A2093A4BF00D1C372 /* HealthKit.framework */; };
-		8AC2127C209AF38A0068421C /* WorkoutSessionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC2127B209AF38A0068421C /* WorkoutSessionContext.swift */; };
-		E03E562E22148F3900D5A0A1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E03E562D22148F3800D5A0A1 /* README.md */; };
+		E0EDD7982489AB53002FF6D7 /* SpeedySloth WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E0EDD7972489AB53002FF6D7 /* SpeedySloth WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E0EDD79D2489AB54002FF6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EDD79C2489AB54002FF6D7 /* Assets.xcassets */; };
+		E0EDD7A42489AB54002FF6D7 /* SpeedySloth WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E0EDD7A32489AB54002FF6D7 /* SpeedySloth WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E0EDD7A92489AB54002FF6D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EDD7A82489AB54002FF6D7 /* ContentView.swift */; };
+		E0EDD7AB2489AB54002FF6D7 /* SpeedySlothApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EDD7AA2489AB54002FF6D7 /* SpeedySlothApp.swift */; };
+		E0EDD7AD2489AB55002FF6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EDD7AC2489AB55002FF6D7 /* Assets.xcassets */; };
+		E0EDD7B02489AB55002FF6D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EDD7AF2489AB55002FF6D7 /* Preview Assets.xcassets */; };
+		E0EDD7C22489ACAF002FF6D7 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EDD7C12489ACAF002FF6D7 /* HealthKit.framework */; };
+		E0EDD7C52489AE71002FF6D7 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EDD7C42489AE71002FF6D7 /* WorkoutManager.swift */; };
+		E0EDD7C72489AEAB002FF6D7 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EDD7C62489AEAB002FF6D7 /* MenuButton.swift */; };
+		E0EDD7C92489AFF4002FF6D7 /* RunButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EDD7C82489AFF4002FF6D7 /* RunButton.swift */; };
+		E0EDD7CB2489B02A002FF6D7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EDD7CA2489B02A002FF6D7 /* MenuView.swift */; };
+		E0EDD7CD2489B085002FF6D7 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EDD7CC2489B085002FF6D7 /* WorkoutView.swift */; };
+		E0EDD7CF2489B0C4002FF6D7 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EDD7CE2489B0C4002FF6D7 /* PagingView.swift */; };
+		E0EDD7D12489B113002FF6D7 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EDD7D02489B113002FF6D7 /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8A7C525D2093A45E00D1C372 /* PBXContainerItemProxy */ = {
+		E0EDD7992489AB53002FF6D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8A7C52302093A3B500D1C372 /* Project object */;
+			containerPortal = E0EDD78D2489AB52002FF6D7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8A7C525A2093A45E00D1C372;
-			remoteInfo = "SpeedySloth WatchKit App Extension";
-		};
-		8A7C526A2093A45F00D1C372 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A7C52302093A3B500D1C372 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A7C524E2093A45D00D1C372;
+			remoteGlobalIDString = E0EDD7962489AB53002FF6D7;
 			remoteInfo = "SpeedySloth WatchKit App";
+		};
+		E0EDD7A52489AB54002FF6D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0EDD78D2489AB52002FF6D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EDD7A22489AB54002FF6D7;
+			remoteInfo = "SpeedySloth WatchKit Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8A7C52702093A45F00D1C372 /* Embed App Extensions */ = {
+		E0EDD7B72489AB55002FF6D7 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8A7C525C2093A45E00D1C372 /* SpeedySloth WatchKit App Extension.appex in Embed App Extensions */,
+				E0EDD7A42489AB54002FF6D7 /* SpeedySloth WatchKit Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A7C52742093A45F00D1C372 /* Embed Watch Content */ = {
+		E0EDD7BB2489AB55002FF6D7 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				8A7C526C2093A45F00D1C372 /* SpeedySloth WatchKit App.app in Embed Watch Content */,
+				E0EDD7982489AB53002FF6D7 /* SpeedySloth WatchKit App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,50 +67,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6753D2E9594A89A77A791DC7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8683155AF4E02EA75A5520DB /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
-		8A255A87209A9F3B00B63199 /* WorkoutRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRow.swift; sourceTree = "<group>"; };
-		8A255A8C209AA01B00B63199 /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
-		8A7C52382093A3B500D1C372 /* SpeedySloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedySloth.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A7C523B2093A3B500D1C372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A7C523D2093A3B500D1C372 /* WorkoutStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStartView.swift; sourceTree = "<group>"; };
-		8A7C52402093A3B500D1C372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A7C52422093A3B600D1C372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8A7C52452093A3B600D1C372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8A7C52472093A3B600D1C372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A7C524F2093A45D00D1C372 /* SpeedySloth WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeedySloth WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A7C52522093A45D00D1C372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		8A7C52542093A45E00D1C372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8A7C52562093A45E00D1C372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A7C525B2093A45E00D1C372 /* SpeedySloth WatchKit App Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SpeedySloth WatchKit App Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A7C52602093A45E00D1C372 /* WorkoutStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutStartView.swift; sourceTree = "<group>"; };
-		8A7C52622093A45E00D1C372 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		8A7C52642093A45E00D1C372 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		8A7C52662093A45F00D1C372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8A7C52682093A45F00D1C372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A7C52692093A45F00D1C372 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		8A7C52752093A49B00D1C372 /* SpeedySloth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeedySloth.entitlements; sourceTree = "<group>"; };
-		8A7C52772093A49B00D1C372 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
-		8A7C52792093A4BF00D1C372 /* SpeedySloth WatchKit App Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SpeedySloth WatchKit App Extension.entitlements"; sourceTree = "<group>"; };
-		8A7C527A2093A4BF00D1C372 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
-		8AC2127B209AF38A0068421C /* WorkoutSessionContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionContext.swift; sourceTree = "<group>"; };
-		E03E562D22148F3800D5A0A1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E0EDD7932489AB52002FF6D7 /* SpeedySloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedySloth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EDD7972489AB53002FF6D7 /* SpeedySloth WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeedySloth WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EDD79C2489AB54002FF6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0EDD79E2489AB54002FF6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EDD7A32489AB54002FF6D7 /* SpeedySloth WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SpeedySloth WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EDD7A82489AB54002FF6D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0EDD7AA2489AB54002FF6D7 /* SpeedySlothApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedySlothApp.swift; sourceTree = "<group>"; };
+		E0EDD7AC2489AB55002FF6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0EDD7AF2489AB55002FF6D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0EDD7B12489AB55002FF6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EDD7BF2489ACAF002FF6D7 /* SpeedySloth WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SpeedySloth WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		E0EDD7C12489ACAF002FF6D7 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS7.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		E0EDD7C42489AE71002FF6D7 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		E0EDD7C62489AEAB002FF6D7 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		E0EDD7C82489AFF4002FF6D7 /* RunButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunButton.swift; sourceTree = "<group>"; };
+		E0EDD7CA2489B02A002FF6D7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		E0EDD7CC2489B085002FF6D7 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		E0EDD7CE2489B0C4002FF6D7 /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
+		E0EDD7D02489B113002FF6D7 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8A7C52352093A3B500D1C372 /* Frameworks */ = {
+		E0EDD7A02489AB54002FF6D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7C52782093A49B00D1C372 /* HealthKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A7C52582093A45E00D1C372 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A7C527B2093A4BF00D1C372 /* HealthKit.framework in Frameworks */,
+				E0EDD7C22489ACAF002FF6D7 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,93 +112,6 @@
 			path = LICENSE;
 			sourceTree = "<group>";
 		};
-		8A7C522F2093A3B500D1C372 = {
-			isa = PBXGroup;
-			children = (
-				E03E562D22148F3800D5A0A1 /* README.md */,
-				8A7C523A2093A3B500D1C372 /* SpeedySloth */,
-				8A7C52502093A45D00D1C372 /* SpeedySloth WatchKit App */,
-				8A7C525F2093A45E00D1C372 /* SpeedySloth WatchKit App Extension */,
-				8A7C52392093A3B500D1C372 /* Products */,
-				8A7C52762093A49B00D1C372 /* Frameworks */,
-				A73287B59243E9C9F9600CBD /* Configuration */,
-				42A79FD571DD2D5DD35AB62E /* LICENSE */,
-			);
-			sourceTree = "<group>";
-		};
-		8A7C52392093A3B500D1C372 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8A7C52382093A3B500D1C372 /* SpeedySloth.app */,
-				8A7C524F2093A45D00D1C372 /* SpeedySloth WatchKit App.app */,
-				8A7C525B2093A45E00D1C372 /* SpeedySloth WatchKit App Extension.appex */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8A7C523A2093A3B500D1C372 /* SpeedySloth */ = {
-			isa = PBXGroup;
-			children = (
-				8A7C523B2093A3B500D1C372 /* AppDelegate.swift */,
-				8A7C523D2093A3B500D1C372 /* WorkoutStartView.swift */,
-				8A7C523F2093A3B500D1C372 /* Main.storyboard */,
-				E06E67BE2214B75900EBB166 /* Supporting Files */,
-			);
-			path = SpeedySloth;
-			sourceTree = "<group>";
-		};
-		8A7C52502093A45D00D1C372 /* SpeedySloth WatchKit App */ = {
-			isa = PBXGroup;
-			children = (
-				8A7C52512093A45D00D1C372 /* Interface.storyboard */,
-				8AC21285209B9EEE0068421C /* Supporting Files */,
-			);
-			path = "SpeedySloth WatchKit App";
-			sourceTree = "<group>";
-		};
-		8A7C525F2093A45E00D1C372 /* SpeedySloth WatchKit App Extension */ = {
-			isa = PBXGroup;
-			children = (
-				8A7C52622093A45E00D1C372 /* ExtensionDelegate.swift */,
-				8A7C52602093A45E00D1C372 /* WorkoutStartView.swift */,
-				8A255A8C209AA01B00B63199 /* WorkoutSession.swift */,
-				8AC2127B209AF38A0068421C /* WorkoutSessionContext.swift */,
-				8A255A87209A9F3B00B63199 /* WorkoutRow.swift */,
-				8A7C52642093A45E00D1C372 /* NotificationController.swift */,
-				8AC21286209B9F040068421C /* Supporting Files */,
-			);
-			path = "SpeedySloth WatchKit App Extension";
-			sourceTree = "<group>";
-		};
-		8A7C52762093A49B00D1C372 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8A7C527A2093A4BF00D1C372 /* HealthKit.framework */,
-				8A7C52772093A49B00D1C372 /* HealthKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8AC21285209B9EEE0068421C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8A7C52542093A45E00D1C372 /* Assets.xcassets */,
-				8A7C52562093A45E00D1C372 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8AC21286209B9F040068421C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8A7C52792093A4BF00D1C372 /* SpeedySloth WatchKit App Extension.entitlements */,
-				8A7C52662093A45F00D1C372 /* Assets.xcassets */,
-				8A7C52692093A45F00D1C372 /* PushNotificationPayload.apns */,
-				8A7C52682093A45F00D1C372 /* Info.plist */,
-			);
-			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		A73287B59243E9C9F9600CBD /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,107 +120,158 @@
 			name = Configuration;
 			sourceTree = "<group>";
 		};
-		E06E67BE2214B75900EBB166 /* Supporting Files */ = {
+		E0EDD78C2489AB52002FF6D7 = {
 			isa = PBXGroup;
 			children = (
-				8A7C52752093A49B00D1C372 /* SpeedySloth.entitlements */,
-				8A7C52422093A3B600D1C372 /* Assets.xcassets */,
-				8A7C52442093A3B600D1C372 /* LaunchScreen.storyboard */,
-				8A7C52472093A3B600D1C372 /* Info.plist */,
+				6753D2E9594A89A77A791DC7 /* README.md */,
+				E0EDD79B2489AB53002FF6D7 /* SpeedySloth WatchKit App */,
+				E0EDD7A72489AB54002FF6D7 /* SpeedySloth WatchKit Extension */,
+				E0EDD7942489AB52002FF6D7 /* Products */,
+				E0EDD7C02489ACAF002FF6D7 /* Frameworks */,
+				A73287B59243E9C9F9600CBD /* Configuration */,
+				42A79FD571DD2D5DD35AB62E /* LICENSE */,
 			);
-			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0EDD7942489AB52002FF6D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0EDD7932489AB52002FF6D7 /* SpeedySloth.app */,
+				E0EDD7972489AB53002FF6D7 /* SpeedySloth WatchKit App.app */,
+				E0EDD7A32489AB54002FF6D7 /* SpeedySloth WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0EDD79B2489AB53002FF6D7 /* SpeedySloth WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E0EDD79C2489AB54002FF6D7 /* Assets.xcassets */,
+				E0EDD79E2489AB54002FF6D7 /* Info.plist */,
+			);
+			path = "SpeedySloth WatchKit App";
+			sourceTree = "<group>";
+		};
+		E0EDD7A72489AB54002FF6D7 /* SpeedySloth WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E0EDD7AA2489AB54002FF6D7 /* SpeedySlothApp.swift */,
+				E0EDD7A82489AB54002FF6D7 /* ContentView.swift */,
+				E0EDD7D02489B113002FF6D7 /* StartView.swift */,
+				E0EDD7CE2489B0C4002FF6D7 /* PagingView.swift */,
+				E0EDD7CC2489B085002FF6D7 /* WorkoutView.swift */,
+				E0EDD7CA2489B02A002FF6D7 /* MenuView.swift */,
+				E0EDD7C82489AFF4002FF6D7 /* RunButton.swift */,
+				E0EDD7C62489AEAB002FF6D7 /* MenuButton.swift */,
+				E0EDD7C42489AE71002FF6D7 /* WorkoutManager.swift */,
+				E0EDD7AE2489AB55002FF6D7 /* Preview Content */,
+				E0EDD7C32489AE1C002FF6D7 /* Supporting Files */,
+			);
+			path = "SpeedySloth WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E0EDD7AE2489AB55002FF6D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0EDD7AF2489AB55002FF6D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0EDD7C02489ACAF002FF6D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0EDD7C12489ACAF002FF6D7 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0EDD7C32489AE1C002FF6D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0EDD7BF2489ACAF002FF6D7 /* SpeedySloth WatchKit Extension.entitlements */,
+				E0EDD7AC2489AB55002FF6D7 /* Assets.xcassets */,
+				E0EDD7B12489AB55002FF6D7 /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8A7C52372093A3B500D1C372 /* SpeedySloth */ = {
+		E0EDD7922489AB52002FF6D7 /* SpeedySloth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A7C524A2093A3B600D1C372 /* Build configuration list for PBXNativeTarget "SpeedySloth" */;
+			buildConfigurationList = E0EDD7BC2489AB55002FF6D7 /* Build configuration list for PBXNativeTarget "SpeedySloth" */;
 			buildPhases = (
-				8A7C52342093A3B500D1C372 /* Sources */,
-				8A7C52352093A3B500D1C372 /* Frameworks */,
-				8A7C52362093A3B500D1C372 /* Resources */,
-				8A7C52742093A45F00D1C372 /* Embed Watch Content */,
+				E0EDD7912489AB52002FF6D7 /* Resources */,
+				E0EDD7BB2489AB55002FF6D7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A7C526B2093A45F00D1C372 /* PBXTargetDependency */,
+				E0EDD79A2489AB53002FF6D7 /* PBXTargetDependency */,
 			);
 			name = SpeedySloth;
 			productName = SpeedySloth;
-			productReference = 8A7C52382093A3B500D1C372 /* SpeedySloth.app */;
-			productType = "com.apple.product-type.application";
+			productReference = E0EDD7932489AB52002FF6D7 /* SpeedySloth.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
 		};
-		8A7C524E2093A45D00D1C372 /* SpeedySloth WatchKit App */ = {
+		E0EDD7962489AB53002FF6D7 /* SpeedySloth WatchKit App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A7C52712093A45F00D1C372 /* Build configuration list for PBXNativeTarget "SpeedySloth WatchKit App" */;
+			buildConfigurationList = E0EDD7B82489AB55002FF6D7 /* Build configuration list for PBXNativeTarget "SpeedySloth WatchKit App" */;
 			buildPhases = (
-				8A7C524D2093A45D00D1C372 /* Resources */,
-				8A7C52702093A45F00D1C372 /* Embed App Extensions */,
+				E0EDD7952489AB53002FF6D7 /* Resources */,
+				E0EDD7B72489AB55002FF6D7 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A7C525E2093A45E00D1C372 /* PBXTargetDependency */,
+				E0EDD7A62489AB54002FF6D7 /* PBXTargetDependency */,
 			);
 			name = "SpeedySloth WatchKit App";
 			productName = "SpeedySloth WatchKit App";
-			productReference = 8A7C524F2093A45D00D1C372 /* SpeedySloth WatchKit App.app */;
+			productReference = E0EDD7972489AB53002FF6D7 /* SpeedySloth WatchKit App.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		8A7C525A2093A45E00D1C372 /* SpeedySloth WatchKit App Extension */ = {
+		E0EDD7A22489AB54002FF6D7 /* SpeedySloth WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A7C526D2093A45F00D1C372 /* Build configuration list for PBXNativeTarget "SpeedySloth WatchKit App Extension" */;
+			buildConfigurationList = E0EDD7B42489AB55002FF6D7 /* Build configuration list for PBXNativeTarget "SpeedySloth WatchKit Extension" */;
 			buildPhases = (
-				8A7C52572093A45E00D1C372 /* Sources */,
-				8A7C52582093A45E00D1C372 /* Frameworks */,
-				8A7C52592093A45E00D1C372 /* Resources */,
+				E0EDD79F2489AB54002FF6D7 /* Sources */,
+				E0EDD7A02489AB54002FF6D7 /* Frameworks */,
+				E0EDD7A12489AB54002FF6D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SpeedySloth WatchKit App Extension";
-			productName = "SpeedySloth WatchKit App Extension";
-			productReference = 8A7C525B2093A45E00D1C372 /* SpeedySloth WatchKit App Extension.appex */;
+			name = "SpeedySloth WatchKit Extension";
+			productName = "SpeedySloth WatchKit Extension";
+			productReference = E0EDD7A32489AB54002FF6D7 /* SpeedySloth WatchKit Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8A7C52302093A3B500D1C372 /* Project object */ = {
+		E0EDD78D2489AB52002FF6D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					8A7C52372093A3B500D1C372 = {
-						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1020;
-						SystemCapabilities = {
-							com.apple.HealthKit = {
-								enabled = 1;
-							};
-						};
+					E0EDD7922489AB52002FF6D7 = {
+						CreatedOnToolsVersion = 12.0;
 					};
-					8A7C524E2093A45D00D1C372 = {
-						CreatedOnToolsVersion = 10.0;
+					E0EDD7962489AB53002FF6D7 = {
+						CreatedOnToolsVersion = 12.0;
 					};
-					8A7C525A2093A45E00D1C372 = {
-						CreatedOnToolsVersion = 10.0;
-						LastSwiftMigration = 1020;
-						SystemCapabilities = {
-							com.apple.HealthKit.watchos = {
-								enabled = 1;
-							};
-						};
+					E0EDD7A22489AB54002FF6D7 = {
+						CreatedOnToolsVersion = 12.0;
 					};
 				};
 			};
-			buildConfigurationList = 8A7C52332093A3B500D1C372 /* Build configuration list for PBXProject "SpeedySloth" */;
+			buildConfigurationList = E0EDD7902489AB52002FF6D7 /* Build configuration list for PBXProject "SpeedySloth" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -333,116 +279,79 @@
 				en,
 				Base,
 			);
-			mainGroup = 8A7C522F2093A3B500D1C372;
-			productRefGroup = 8A7C52392093A3B500D1C372 /* Products */;
+			mainGroup = E0EDD78C2489AB52002FF6D7;
+			productRefGroup = E0EDD7942489AB52002FF6D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A7C52372093A3B500D1C372 /* SpeedySloth */,
-				8A7C524E2093A45D00D1C372 /* SpeedySloth WatchKit App */,
-				8A7C525A2093A45E00D1C372 /* SpeedySloth WatchKit App Extension */,
+				E0EDD7922489AB52002FF6D7 /* SpeedySloth */,
+				E0EDD7962489AB53002FF6D7 /* SpeedySloth WatchKit App */,
+				E0EDD7A22489AB54002FF6D7 /* SpeedySloth WatchKit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8A7C52362093A3B500D1C372 /* Resources */ = {
+		E0EDD7912489AB52002FF6D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7C52462093A3B600D1C372 /* LaunchScreen.storyboard in Resources */,
-				8A7C52432093A3B600D1C372 /* Assets.xcassets in Resources */,
-				E03E562E22148F3900D5A0A1 /* README.md in Resources */,
-				8A7C52412093A3B500D1C372 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A7C524D2093A45D00D1C372 /* Resources */ = {
+		E0EDD7952489AB53002FF6D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7C52552093A45E00D1C372 /* Assets.xcassets in Resources */,
-				8A7C52532093A45D00D1C372 /* Interface.storyboard in Resources */,
+				E0EDD79D2489AB54002FF6D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A7C52592093A45E00D1C372 /* Resources */ = {
+		E0EDD7A12489AB54002FF6D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7C52672093A45F00D1C372 /* Assets.xcassets in Resources */,
+				E0EDD7B02489AB55002FF6D7 /* Preview Assets.xcassets in Resources */,
+				E0EDD7AD2489AB55002FF6D7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8A7C52342093A3B500D1C372 /* Sources */ = {
+		E0EDD79F2489AB54002FF6D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A7C523E2093A3B500D1C372 /* WorkoutStartView.swift in Sources */,
-				8A7C523C2093A3B500D1C372 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A7C52572093A45E00D1C372 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A7C52652093A45E00D1C372 /* NotificationController.swift in Sources */,
-				8A255A88209A9F3B00B63199 /* WorkoutRow.swift in Sources */,
-				8AC2127C209AF38A0068421C /* WorkoutSessionContext.swift in Sources */,
-				8A255A8D209AA01B00B63199 /* WorkoutSession.swift in Sources */,
-				8A7C52632093A45E00D1C372 /* ExtensionDelegate.swift in Sources */,
-				8A7C52612093A45E00D1C372 /* WorkoutStartView.swift in Sources */,
+				E0EDD7D12489B113002FF6D7 /* StartView.swift in Sources */,
+				E0EDD7CD2489B085002FF6D7 /* WorkoutView.swift in Sources */,
+				E0EDD7C72489AEAB002FF6D7 /* MenuButton.swift in Sources */,
+				E0EDD7CB2489B02A002FF6D7 /* MenuView.swift in Sources */,
+				E0EDD7C92489AFF4002FF6D7 /* RunButton.swift in Sources */,
+				E0EDD7CF2489B0C4002FF6D7 /* PagingView.swift in Sources */,
+				E0EDD7AB2489AB54002FF6D7 /* SpeedySlothApp.swift in Sources */,
+				E0EDD7A92489AB54002FF6D7 /* ContentView.swift in Sources */,
+				E0EDD7C52489AE71002FF6D7 /* WorkoutManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A7C525E2093A45E00D1C372 /* PBXTargetDependency */ = {
+		E0EDD79A2489AB53002FF6D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8A7C525A2093A45E00D1C372 /* SpeedySloth WatchKit App Extension */;
-			targetProxy = 8A7C525D2093A45E00D1C372 /* PBXContainerItemProxy */;
+			target = E0EDD7962489AB53002FF6D7 /* SpeedySloth WatchKit App */;
+			targetProxy = E0EDD7992489AB53002FF6D7 /* PBXContainerItemProxy */;
 		};
-		8A7C526B2093A45F00D1C372 /* PBXTargetDependency */ = {
+		E0EDD7A62489AB54002FF6D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8A7C524E2093A45D00D1C372 /* SpeedySloth WatchKit App */;
-			targetProxy = 8A7C526A2093A45F00D1C372 /* PBXContainerItemProxy */;
+			target = E0EDD7A22489AB54002FF6D7 /* SpeedySloth WatchKit Extension */;
+			targetProxy = E0EDD7A52489AB54002FF6D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		8A7C523F2093A3B500D1C372 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A7C52402093A3B500D1C372 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8A7C52442093A3B600D1C372 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A7C52452093A3B600D1C372 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		8A7C52512093A45D00D1C372 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A7C52522093A45D00D1C372 /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		8A7C52482093A3B600D1C372 /* Debug */ = {
+		E0EDD7B22489AB55002FF6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */;
 			buildSettings = {
@@ -469,13 +378,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -494,8 +403,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -503,7 +412,7 @@
 			};
 			name = Debug;
 		};
-		8A7C52492093A3B600D1C372 /* Release */ = {
+		E0EDD7B32489AB55002FF6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */;
 			buildSettings = {
@@ -530,13 +439,13 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -549,8 +458,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -558,184 +467,176 @@
 			};
 			name = Release;
 		};
-		8A7C524B2093A3B600D1C372 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SpeedySloth/SpeedySloth.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SpeedySloth/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth-2${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		8A7C524C2093A3B600D1C372 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = SpeedySloth/SpeedySloth.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SpeedySloth/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth-2${SAMPLE_CODE_DISAMBIGUATOR}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		8A7C526E2093A45F00D1C372 /* Debug */ = {
+		E0EDD7B52489AB55002FF6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "SpeedySloth WatchKit App Extension/Supporting Files/SpeedySloth WatchKit App Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "SpeedySloth WatchKit Extension/Supporting Files/SpeedySloth WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedySloth WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "SpeedySloth WatchKit App Extension/Supporting Files/Info.plist";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SpeedySloth WatchKit Extension/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth-2${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
-		8A7C526F2093A45F00D1C372 /* Release */ = {
+		E0EDD7B62489AB55002FF6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_ENTITLEMENTS = "SpeedySloth WatchKit App Extension/Supporting Files/SpeedySloth WatchKit App Extension.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "SpeedySloth WatchKit Extension/Supporting Files/SpeedySloth WatchKit Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedySloth WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "SpeedySloth WatchKit App Extension/Supporting Files/Info.plist";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SpeedySloth WatchKit Extension/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth-2${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
-		8A7C52722093A45F00D1C372 /* Debug */ = {
+		E0EDD7B92489AB55002FF6D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = SpeedySloth_WatchKit_App_Extension;
-				INFOPLIST_FILE = "SpeedySloth WatchKit App/Supporting Files/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth-2${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
+				IBSC_MODULE = SpeedySloth_WatchKit_Extension;
+				INFOPLIST_FILE = "SpeedySloth WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
-		8A7C52732093A45F00D1C372 /* Release */ = {
+		E0EDD7BA2489AB55002FF6D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				IBSC_MODULE = SpeedySloth_WatchKit_App_Extension;
-				INFOPLIST_FILE = "SpeedySloth WatchKit App/Supporting Files/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth-2${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
+				IBSC_MODULE = SpeedySloth_WatchKit_Extension;
+				INFOPLIST_FILE = "SpeedySloth WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth${SAMPLE_CODE_DISAMBIGUATOR}.watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		E0EDD7BD2489AB55002FF6D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0EDD7BE2489AB55002FF6D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8A7C52332093A3B500D1C372 /* Build configuration list for PBXProject "SpeedySloth" */ = {
+		E0EDD7902489AB52002FF6D7 /* Build configuration list for PBXProject "SpeedySloth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A7C52482093A3B600D1C372 /* Debug */,
-				8A7C52492093A3B600D1C372 /* Release */,
+				E0EDD7B22489AB55002FF6D7 /* Debug */,
+				E0EDD7B32489AB55002FF6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A7C524A2093A3B600D1C372 /* Build configuration list for PBXNativeTarget "SpeedySloth" */ = {
+		E0EDD7B42489AB55002FF6D7 /* Build configuration list for PBXNativeTarget "SpeedySloth WatchKit Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A7C524B2093A3B600D1C372 /* Debug */,
-				8A7C524C2093A3B600D1C372 /* Release */,
+				E0EDD7B52489AB55002FF6D7 /* Debug */,
+				E0EDD7B62489AB55002FF6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A7C526D2093A45F00D1C372 /* Build configuration list for PBXNativeTarget "SpeedySloth WatchKit App Extension" */ = {
+		E0EDD7B82489AB55002FF6D7 /* Build configuration list for PBXNativeTarget "SpeedySloth WatchKit App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A7C526E2093A45F00D1C372 /* Debug */,
-				8A7C526F2093A45F00D1C372 /* Release */,
+				E0EDD7B92489AB55002FF6D7 /* Debug */,
+				E0EDD7BA2489AB55002FF6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A7C52712093A45F00D1C372 /* Build configuration list for PBXNativeTarget "SpeedySloth WatchKit App" */ = {
+		E0EDD7BC2489AB55002FF6D7 /* Build configuration list for PBXNativeTarget "SpeedySloth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A7C52722093A45F00D1C372 /* Debug */,
-				8A7C52732093A45F00D1C372 /* Release */,
+				E0EDD7BD2489AB55002FF6D7 /* Debug */,
+				E0EDD7BE2489AB55002FF6D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8A7C52302093A3B500D1C372 /* Project object */;
+	rootObject = E0EDD78D2489AB52002FF6D7 /* Project object */;
 }
