@@ -1,10 +1,10 @@
 # SpeedySloth: Creating a Workout
 
-Start, stop, and to save workouts on Apple Watch with the Workout Builder API.
+Start, stop, and save workouts on Apple Watch with the Workout Builder API.
 
 ## Overview
 
-This sample demonstrates how to create an Apple Watch workout app using the Workout Builder API. The sample displays real-time data, such as heart rate, distance traveled, and elapsed time during an active workout. The user can tap on a button on the inital interface to start the workout, and swipe right on the workout interface to bring up the menu to pause or stop the workout. In the sample, all the business logic of interfacing with HealthKit and managing the workout is encapsulated in the `WorkoutManager` object.
+This sample demonstrates how to create an Apple Watch workout app using the Workout Builder API. The sample displays real-time data, such as heart rate, distance traveled, and elapsed time during an active workout. The user can tap on a button on the initial interface to start the workout, and swipe right on the workout interface to bring up the menu to pause or stop the workout. In the sample, all the business logic of interfacing with HealthKit and managing the workout is encapsulated in the `WorkoutManager` object.
 
 ## Configure the Sample Code Project
 
