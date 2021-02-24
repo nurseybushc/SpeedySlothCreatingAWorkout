@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8412300E25A54CC000675596 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8412300C25A54CC000675596 /* Model.xcdatamodeld */; };
+		8474654925D376C30076ADA4 /* WorkoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8474654825D376C30076ADA4 /* WorkoutModel.swift */; };
+		84B0BF3925744B50007138ED /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0BF3825744B50007138ED /* GoalsView.swift */; };
 		E0EDD7982489AB53002FF6D7 /* SpeedySloth WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E0EDD7972489AB53002FF6D7 /* SpeedySloth WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E0EDD79D2489AB54002FF6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EDD79C2489AB54002FF6D7 /* Assets.xcassets */; };
 		E0EDD7A42489AB54002FF6D7 /* SpeedySloth WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E0EDD7A32489AB54002FF6D7 /* SpeedySloth WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -68,7 +71,10 @@
 
 /* Begin PBXFileReference section */
 		6753D2E9594A89A77A791DC7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		8683155AF4E02EA75A5520DB /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		8412300D25A54CC000675596 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		8474654825D376C30076ADA4 /* WorkoutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutModel.swift; sourceTree = "<group>"; };
+		84B0BF3825744B50007138ED /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		8683155AF4E02EA75A5520DB /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		E0EDD7932489AB52002FF6D7 /* SpeedySloth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedySloth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EDD7972489AB53002FF6D7 /* SpeedySloth WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpeedySloth WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EDD79C2489AB54002FF6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,7 +94,7 @@
 		E0EDD7CC2489B085002FF6D7 /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
 		E0EDD7CE2489B0C4002FF6D7 /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
 		E0EDD7D02489B113002FF6D7 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
-		E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		E4DF41FDC704732F285B9EAA /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +114,6 @@
 			children = (
 				8683155AF4E02EA75A5520DB /* LICENSE.txt */,
 			);
-			name = LICENSE;
 			path = LICENSE;
 			sourceTree = "<group>";
 		};
@@ -164,8 +169,11 @@
 				E0EDD7C82489AFF4002FF6D7 /* RunButton.swift */,
 				E0EDD7C62489AEAB002FF6D7 /* MenuButton.swift */,
 				E0EDD7C42489AE71002FF6D7 /* WorkoutManager.swift */,
+				84B0BF3825744B50007138ED /* GoalsView.swift */,
 				E0EDD7AE2489AB55002FF6D7 /* Preview Content */,
 				E0EDD7C32489AE1C002FF6D7 /* Supporting Files */,
+				8412300C25A54CC000675596 /* Model.xcdatamodeld */,
+				8474654825D376C30076ADA4 /* WorkoutModel.swift */,
 			);
 			path = "SpeedySloth WatchKit Extension";
 			sourceTree = "<group>";
@@ -324,6 +332,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0EDD7D12489B113002FF6D7 /* StartView.swift in Sources */,
+				8474654925D376C30076ADA4 /* WorkoutModel.swift in Sources */,
+				84B0BF3925744B50007138ED /* GoalsView.swift in Sources */,
 				E0EDD7CD2489B085002FF6D7 /* WorkoutView.swift in Sources */,
 				E0EDD7C72489AEAB002FF6D7 /* MenuButton.swift in Sources */,
 				E0EDD7CB2489B02A002FF6D7 /* MenuView.swift in Sources */,
@@ -331,6 +341,7 @@
 				E0EDD7CF2489B0C4002FF6D7 /* PagingView.swift in Sources */,
 				E0EDD7AB2489AB54002FF6D7 /* SpeedySlothApp.swift in Sources */,
 				E0EDD7A92489AB54002FF6D7 /* ContentView.swift in Sources */,
+				8412300E25A54CC000675596 /* Model.xcdatamodeld in Sources */,
 				E0EDD7C52489AE71002FF6D7 /* WorkoutManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -571,7 +582,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P47L3YKUJJ;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth${SAMPLE_CODE_DISAMBIGUATOR}";
@@ -587,7 +598,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = P47L3YKUJJ;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.SpeedySloth${SAMPLE_CODE_DISAMBIGUATOR}";
@@ -637,6 +648,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8412300C25A54CC000675596 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8412300D25A54CC000675596 /* Model.xcdatamodel */,
+			);
+			currentVersion = 8412300D25A54CC000675596 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E0EDD78D2489AB52002FF6D7 /* Project object */;
 }

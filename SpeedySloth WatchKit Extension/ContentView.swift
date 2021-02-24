@@ -39,11 +39,11 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             ContentView()
-            .previewDevice("Apple Watch Series 2 - 40mm")
+            .previewDevice("Apple Watch Series 6 - 40mm")
             .previewDisplayName("40 mm")
             
             ContentView()
-            .previewDevice("Apple Watch Series 2 - 44mm")
+            .previewDevice("Apple Watch Series 6 - 44mm")
             .previewDisplayName("44 mm")
         }
         .environmentObject(WorkoutManager())

@@ -1,13 +1,14 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-This file defines the workout view.
-*/
+//
+//  GoalsView.swift
+//  SpeedySloth WatchKit Extension
+//
+//  Created by Admin on 11/29/20.
+//  Copyright © 2020 Apple. All rights reserved.
+//
 
 import SwiftUI
 
-struct WorkoutView: View {
+struct GoalsView: View {
     @EnvironmentObject var workoutSession: WorkoutManager
     
     var body: some View {
@@ -17,7 +18,7 @@ struct WorkoutView: View {
                 .font(Font.system(size: 26, weight: .semibold, design: .default).monospacedDigit())
                 
             // The active calories burned.
-            Text("\(workoutSession.activeCalories, specifier: "%.1f") cal")
+            Text("\(workoutSession.activeCalorieGoal, specifier: "%.1f") cal")
             .font(Font.system(size: 26, weight: .regular, design: .default).monospacedDigit())
             .frame(alignment: .leading)
             
@@ -26,7 +27,7 @@ struct WorkoutView: View {
             .font(Font.system(size: 26, weight: .regular, design: .default).monospacedDigit())
             
             // The distance traveled.
-            Text("\(workoutSession.distance, specifier: "%.1f") ft")
+            Text("\(workoutSession.distance, specifier: "%.1f") m")
             .font(Font.system(size: 26, weight: .regular, design: .default).monospacedDigit())
             Spacer().frame(width: 1, height: 8, alignment: .leading)
              
@@ -45,8 +46,8 @@ struct WorkoutView: View {
     }
 }
 
-struct WorkoutView_Previews: PreviewProvider {
+struct GoalsView_Previews: PreviewProvider {
     static var previews: some View {
-        WorkoutView().environmentObject(WorkoutManager())
+        GoalsView().environmentObject(WorkoutManager())
     }
 }

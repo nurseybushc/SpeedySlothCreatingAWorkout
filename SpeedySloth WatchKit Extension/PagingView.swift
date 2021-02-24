@@ -19,6 +19,7 @@ struct PagingView: View {
     enum PageSelection {
         case menu // Show the menu page.
         case workout // Show the workout page.
+        case goals
     }
     
     var body: some View {
@@ -31,6 +32,9 @@ struct PagingView: View {
             // The workout view.
             WorkoutView()
                 .tag(PageSelection.workout)
+            
+            //the goals view
+            GoalsView().tag(PageSelection.goals)
         }.tabViewStyle(PageTabViewStyle())
     }
     
